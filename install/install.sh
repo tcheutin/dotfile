@@ -5,7 +5,7 @@ echo "Installation of the configuration files"
 CURRENT_DIR=$(pwd)
 for file in "$CURRENT_DIR"/* 
 do
-    if [ ! -x "$file" ] || [ -d "$file"  ]
+    if [ ! -d "$file" ]
     then
         IN="$file"
         OUT="$HOME/.${file##*/}"

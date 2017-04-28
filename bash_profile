@@ -3,4 +3,4 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 alias tmux="TERM=screen-256color-bce tmux"
-#source ~/.git-completion.bash
+source ~/.git-completion.bash
