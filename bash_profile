@@ -21,4 +21,4 @@ alias mkdir='mkdir -pv'
 ## wget alias
 alias wget='wget -c'
 ## rsync alias
-alias rsync='rsync --progress'
+alias rsync='rsync -h --progress'
