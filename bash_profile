@@ -3,7 +3,7 @@ export CLICOLOR=1
 alias tmux="TERM=screen-256color-bce tmux"
 source ~/.git-completion.bash
 ## ls alias
-alias ls='ls -G'
+alias ls='ls --color=auto'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
 ## cd alias
