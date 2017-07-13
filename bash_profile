@@ -1,11 +1,10 @@
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
-export LS_COLORS=ExFxBxDxCxegedabagacad
 alias tmux="TERM=screen-256color-bce tmux"
 source ~/.git-completion.bash
 ## ls alias
-alias ls='ls --color=auto'
-alias ll='ls -la
+alias ls='ls -G'
+alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
 ## cd alias
 alias cd..='cd ..'
