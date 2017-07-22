@@ -22,3 +22,7 @@ alias mkdir='mkdir -pv'
 alias wget='wget -c'
 ## rsync alias
 alias rsync='rsync -h --progress'
+## git alias
+alias gs='git status'
+alias gg='git log --graph --oneline --decorate'
+
