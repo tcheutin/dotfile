@@ -4,7 +4,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 source ~/.git-completion.bash
 ## ls alias
 alias ls='ls --color=auto'
-alias ll='ls -lha'
+alias ll='ls -lsha'
 alias l.='ls -d .* --color=auto'
 ## cd alias
 alias cd..='cd ..'
